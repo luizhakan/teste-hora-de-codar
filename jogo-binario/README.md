@@ -12,10 +12,10 @@ Ao executar o jogo, o jogador poderá digitar um número para tentar adivinhar o
 # Melhorias futuras
 
 
-[x] Adicionar opção de escolher o intervalo de números aleatórios
+- Adicionar opção de escolher o intervalo de números aleatórios
 
-[x] Adicionar um modo multiplayer
+- Adicionar um modo multiplayer
 
-[x] Adicionar uma interface gráfica para o jogo
+- Adicionar uma interface gráfica para o jogo
 
 Bom jogo guerreiro(a)!

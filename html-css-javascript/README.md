@@ -10,8 +10,10 @@ O projeto utiliza recursos básicos de HTML, CSS e JavaScript e é adequado para
 
 # Melhorias Futuras
 
-[x] Adicionar a possibilidade de editar itens na lista
-[x] Implementar uma interface mais intuitiva e moderna
-[x] Adicionar a funcionalidade de compartilhamento de lista
+- Adicionar a possibilidade de editar itens na lista
+
+- Implementar uma interface mais intuitiva e moderna
+
+- Adicionar a funcionalidade de compartilhamento de lista
 
 Ouça AC/DC e Kansas, faz bem aos ouvidos.

@@ -1,1 +1,1 @@
-# teste-hora-de-codar
+Este repositório foi criado para o teste do hora de codar. Os enunciados dos exercícios e explicação do projeto estão dentro de seus respectivos diretórios. O artigo sobre o React está no seguinte link: https://medium.com/@luizhakan2/usecontext-react-js-6098b3cada7f artigo de minha autoria.

@@ -1,5 +1,6 @@
 # Calculadora em JavaScript
 
+
 ## Descrição do projeto
 Este projeto consiste em criar uma calculadora simples em JavaScript que permita ao usuário fazer soma, subtração, multiplicação e divisão. O programa exibirá um menu de opções, solicitará os números necessários e mostrará o resultado na tela.
 

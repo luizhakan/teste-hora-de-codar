@@ -1,5 +1,6 @@
 # Jogo de Adivinhação em JavaScript
 
+
 Este é um jogo de adivinhação em que o jogador tenta adivinhar um número aleatório entre 1 e 100 escolhido pelo computador. O programa dará pistas se o número do jogador é maior ou menor do que o número correto.
 
 # Como jogar
@@ -10,8 +11,11 @@ Ao executar o jogo, o jogador poderá digitar um número para tentar adivinhar o
 
 # Melhorias futuras
 
+
 [x] Adicionar opção de escolher o intervalo de números aleatórios
+
 [x] Adicionar um modo multiplayer
+
 [x] Adicionar uma interface gráfica para o jogo
 
 Bom jogo guerreiro(a)!

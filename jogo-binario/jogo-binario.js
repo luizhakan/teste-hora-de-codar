@@ -1,10 +1,32 @@
 let jogando = true;
 while (jogando) {
   // Pede ao usuário que escolha o nível de dificuldade
-  let nivel = Number(prompt("Escolha o nível de dificuldade: 1, 2 ou 3."));
+  let nivel = Number(
+    prompt(
+      "Escolha o nível de dificuldade: 1, 2 ou 3. Ou digite 'cancelar' para sair."
+    )
+  );
+  // Verifica se o usuário cancelou o jogo
+  if (isNaN(nivel)) {
+    alert("Jogo cancelado.");
+    break;
+  }
   // Valida a escolha do usuário
   while (nivel < 1 || nivel > 3) {
-    nivel = Number(prompt("Escolha o nível de dificuldade: 1, 2 ou 3."));
+    nivel = Number(
+      prompt(
+        "Escolha o nível de dificuldade: 1, 2 ou 3. Ou digite 'cancelar' para sair."
+      )
+    );
+    // Verifica se o usuário cancelou o jogo durante a validação
+    if (isNaN(nivel)) {
+      alert("Jogo cancelado.");
+      jogando = false;
+      break;
+    }
+  }
+  if (!jogando) {
+    break;
   }
   // Define o número máximo de tentativas baseado no nível de dificuldade escolhido
   let numeroTentativas = nivel === 1 ? 7 : nivel === 2 ? 5 : 3;
@@ -20,6 +42,12 @@ while (jogando) {
         } tentativas restantes.`
       )
     );
+    // Verifica se o usuário cancelou o jogo
+    if (isNaN(chute)) {
+      alert("Jogo cancelado.");
+      jogando = false;
+      break;
+    }
     // Verifica se o usuário acertou o número e informa o resultado
     if (chute === numeroAleatorio) {
       alert(`Parabéns, você acertou o número em ${i + 1} tentativa(s)!`);
@@ -37,5 +65,7 @@ while (jogando) {
     }
   }
   // Pergunta ao usuário se ele deseja jogar novamente
-  jogando = confirm("Deseja jogar novamente?");
+  if (jogando) {
+    jogando = confirm("Deseja jogar novamente?");
+  }
 }
